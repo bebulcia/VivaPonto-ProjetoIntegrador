@@ -24,7 +24,7 @@ npm install
 
 ## Executar o Projeto
 
-### Desenvolvimento (Hot Reload)
+### Desenvolvimento
 
 Execute frontend e backend simultaneamente com hot reload:
 
@@ -32,25 +32,12 @@ Execute frontend e backend simultaneamente com hot reload:
 npm run dev
 ```
 
-Acesse:
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:3000/api
-
 ### Produção
 
 Build e execute o servidor (serve frontend e backend):
 
 ```bash
 npm run start
-```
-
-Acesse: http://localhost:3000
-
-Ou execute manualmente:
-
-```bash
-npm run build   # Build do frontend
-npm run server  # Inicia apenas o backend
 ```
 
 ## Credenciais Padrão
@@ -161,12 +148,6 @@ O painel do funcionário possui **menu de navegação** (igual ao admin) com 3 s
 - `POST /api/adjustment-requests` - Criar solicitação
 - `PUT /api/adjustment-requests/:id/approve` - Aprovar (Admin)
 - `PUT /api/adjustment-requests/:id/reject` - Rejeitar (Admin)
-
-## Build para Produção
-
-```bash
-npm run build
-```
 
 Os arquivos compilados estarão em `dist/`.
 
